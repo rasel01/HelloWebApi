@@ -14,7 +14,7 @@ namespace ExampleApiApp.Configuration
             configuration.MapHttpAttributeRoutes();
 
             configuration.Routes.MapHttpRoute(
-                name: "HomeApi",
+                name: "Home",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
